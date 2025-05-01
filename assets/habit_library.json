@@ -1,0 +1,304 @@
+[
+  {
+    "habit_id": "wake_up_early",
+    "habit_name": "Wake up Early",
+    "habit_blog_title": "Mother of All Habits",
+    "thumbnail_url": "https://i.pinimg.com/736x/34/88/96/348896e9fa9db9bf5d8c89947bd6fc01.jpg",
+    "custom_content_data_top": "",
+    "section_1_title": "Why Wake Up Early is the Mother of All Habits",
+    "section_1": "Waking up early gives you a head start. It creates space for calm, focused time before the world gets noisy. This habit gives you full control of your day from the start. When you rise early, you’re more likely to plan, think clearly, and follow routines. It builds discipline, and discipline is the root of all other good habits. That’s why waking up early is often called the “mother of all habits.”",
+    "section_2_title": "Wake Up Early Hacks",
+    "section_2": "<ol><li>Keep your phone away from your bed and avoid doomscrolling while in bed.</li></br><li>Use an alarm clock placed away from your bed.</li></br><li>Avoid caffeine or heavy meals late at night.</li></br><li>Expose yourself to natural light soon after waking up to help reset your internal clock. ​</li></br><li>Maintain the same sleep and wake times every day, even on weekends, to regulate your biological clock.</li></ol>",
+    "section_3_title": "Other Habits to Pair with Waking Up Early",
+    "section_3": "Begin with a few minutes of <span class=\"highlight-montserrat-bold\">meditation</span> to calm your mind and create mental space. Follow it with <span class=\"highlight-montserrat-bold\">journaling</span> to reflect, set intentions, or clear lingering thoughts. Then, spend some time <span class=\"highlight-montserrat-bold\">reading</span>; mornings are ideal for deep focus. After that, drink a glass of water to <span class=\"highlight-montserrat-bold\">hydrate</span> your body. Finally, plan your day by listing your top three tasks. This simple flow turns your morning into a structured, energizing routine that sets the tone for a productive day.",
+    "custom_content_data_bottom": "",
+    "habit_card_img_url": "https://i.pinimg.com/736x/eb/88/ef/eb88efc2459bca12a230f5f195827c02.jpg",
+    "tags": [
+      {
+        "tag_id": "morning",
+        "tag_name": "Morning"
+      },
+      {
+        "tag_id": "productivity",
+        "tag_name": "Productivity"
+      },
+      {
+        "tag_id": "self_reflection",
+        "tag_name": "Self-Reflection"
+      },
+      {
+        "tag_id": "discipline",
+        "tag_name": "Discipline"
+      },
+      {
+        "tag_id": "lifestyle",
+        "tag_name": "Lifestyle"
+      }
+    ]
+  },
+  {
+    "habit_id": "brush_teeth",
+    "habit_name": "Brush Teeth",
+    "habit_blog_title": "Brush Your Teeth Twice Daily",
+    "thumbnail_url": "https://i.pinimg.com/736x/4d/2c/3f/4d2c3fb242961028b0f1f72b0983a85e.jpg",
+    "custom_content_data_top": "",
+    "section_1_title": "Why Should You Brush Your Teeth Twice a Day?",
+    "section_1": "<p>Brushing in the morning helps remove bacteria that build up overnight.</p><p>Brushing at night clears away food particles and plaque from the day.</p><p>This habit helps prevent tooth decay, gum disease, and bad breath. If you eat sugary or acidic foods, wait 30 minutes before brushing to protect your enamel.</p>",
+    "section_2_title": "How Long Should I Brush My Teeth?",
+    "section_2": "You should brush your teeth for two full minutes each time. Divide the time into 30 seconds for each section: upper left, upper right, lower left, and lower right. Use gentle, circular motions and make sure to clean all surfaces-outer, inner, and chewing sides. Set a timer or play a short song to keep track of time.",
+    "section_3_title": "Normal v/s Electric Toothbrushes",
+    "section_3": "<p>Electric toothbrushes often remove more plaque and make brushing easier. They also help maintain the correct brushing time.</p> <p>Manual toothbrushes are cheaper and don’t need charging, but they require more effort and technique.</p>",
+    "custom_content_data_bottom": "",
+    "habit_card_img_url": "https://i.pinimg.com/736x/c6/13/fa/c613faabc32dcc1f115fd7153d13adb8.jpg",
+    "tags": [
+      {
+        "tag_id": "hygiene",
+        "tag_name": "Hygiene"
+      },
+      {
+        "tag_id": "morning",
+        "tag_name": "Morning"
+      },
+      {
+        "tag_id": "self_care",
+        "tag_name": "Self-Care"
+      }
+    ]
+  },
+  {
+    "habit_id": "meditate",
+    "habit_name": "Meditate",
+    "habit_blog_title": "A Simple Guide to Starting Meditation",
+    "thumbnail_url": "https://i.pinimg.com/736x/c3/e6/b7/c3e6b7c8ab10bebc56d20ad65c98e7d5.jpg",
+    "custom_content_data_top": "",
+    "section_1_title": "At What Age Should You Start Meditation?",
+    "section_1": "<p>You can start meditation at any age. Even children as young as 5 can benefit from simple breathing or mindfulness exercises. Starting young helps build emotional control, focus, and calmness early in life.</p><p>However, it’s never too late to begin; teens, adults, and seniors can all experience reduced stress, better sleep, and improved mental clarity through meditation. Just choose a method that suits your age and comfort level.</p>",
+    "section_2_title": "How Long Should a Beginner Meditate?",
+    "section_2": "Beginners should meditate for 5 to 10 minutes daily. As you get comfortable, you can increase the time to 15 or 20 minutes. Consistency matters more than duration. A few minutes every day is more helpful than long sessions once in a while.",
+    "section_3_title": "Types of Meditation and Choosing the Right One",
+    "section_3": "<p><span class=\"highlight-montserrat-bold\">Mindfulness</span> meditation enhances focus and reduces stress, ideal for beginners. <span class=\"highlight-montserrat-bold\">Guided</span> meditation uses audio for relaxation, great for those needing structure. <span class=\"highlight-montserrat-bold\">Transcendental</span> meditation involves mantras for deep calm, suiting experienced practitioners. <span class=\"highlight-montserrat-bold\">Loving-kindness</span> meditation fosters compassion, perfect for emotional growth.</p><p>If you're a beginner, mindfulness is a good place to start.</p>",
+    "custom_content_data_bottom": "",
+    "habit_card_img_url": "https://i.pinimg.com/736x/13/86/1a/13861ae3ad0414259da9886d06c9b813.jpg",
+    "tags": [
+      {
+        "tag_id": "mental_wellness",
+        "tag_name": "Mental Wellness"
+      },
+      {
+        "tag_id": "self_awareness",
+        "tag_name": "Self-Awareness"
+      },
+      {
+        "tag_id": "inner_peace",
+        "tag_name": "Inner Peace"
+      }
+    ]
+  },
+  {
+    "habit_id": "daily_journaling",
+    "habit_name": "Daily Journaling",
+    "habit_blog_title": "Cool Benefits of Keeping a Journal",
+    "thumbnail_url": "https://i.pinimg.com/736x/5c/2f/0e/5c2f0ebaf9f0f446117bf3449d5ae72a.jpg",
+    "custom_content_data_top": "",
+    "section_1_title": "How Journaling Prevents Overthinking?",
+    "section_1": "Journaling prevents overthinking by letting you dump your thoughts onto paper, breaking the cycle of endless worry. It helps you spot patterns, like repeated fears, and address them logically. Writing organizes your mind, reducing mental clutter and anxiety. Over time, it teaches you to let go of unhelpful thoughts, replacing them with solutions or acceptance, keeping your mind calm and present.",
+    "section_2_title": "What is a Journal?",
+    "section_2": "A journal is a personal notebook where you write your thoughts, feelings, or daily events. It’s like a private friend that listens without judging. You can use it to track goals, express emotions, or just ramble. Whether on paper or digitally, it’s a safe space to be yourself. It helps you reflect, grow, and understand your life better with every entry.\n\nThere are several journal types to suit your style. Gratitude journaling boosts positivity by noting things you’re thankful for. Art journaling mixes drawings and words for creative expression. Bullet journaling organizes tasks with lists and symbols. Junk journaling uses random items like tickets for a messy, fun vibe. Travel journaling captures adventures with notes and mementos. Each type offers a unique way to connect with yourself.",
+    "section_3_title": "Best Time for Journaling?",
+    "section_3": "The best time for journaling is morning, when your mind is fresh, setting a positive tone for the day. Evening works too, letting you unwind and reflect on experiences. Choose a quiet moment, like after breakfast or before bed, for 10-15 minutes. Consistency matters more than the exact time, so pick what fits your routine to make it a relaxing habit that sticks.",
+    "custom_content_data_bottom": "<p style=\"font-family: 'Playfair Display', serif; color: #ffffff; font-size: 1.5rem;\">“Keeping a journal will absolutely change your life in ways you’ve never imagined.” — Oprah Winfrey</p>",
+    "habit_card_img_url": "https://i.pinimg.com/736x/7a/32/b1/7a32b1a71d12b968824197fe6417740d.jpg",
+    "tags": [
+      {
+        "tag_id": "mental_wellness",
+        "tag_name": "Mental Wellness"
+      },
+      {
+        "tag_id": "creativity",
+        "tag_name": "Creativity"
+      },
+      {
+        "tag_id": "self_reflection",
+        "tag_name": "Self-Reflection"
+      }
+    ]
+  },
+  {
+    "habit_id": "hydrate",
+    "habit_name": "Hydrate",
+    "habit_blog_title": "The Real Reason Your Body Needs Water",
+    "thumbnail_url": "https://i.pinimg.com/736x/5e/9f/2e/5e9f2e43a1fd747d66238fa5d9da91c3.jpg",
+    "custom_content_data_top": "",
+    "section_1_title": "How much water does your body need a day?",
+    "section_1": "Your body needs enough water to stay healthy and active. On average, men need about 12–15 cups of fluids per day, and women need about 9–11 cups. This includes all drinks like water, coffee/tea, and even water from food. If you exercise, sweat a lot, or live in a hot place, you may need more. Always drink when you feel thirsty.",
+    "section_2_title": "Why Your Body Needs Water",
+    "section_2": "Water helps regulate body temperature, keeps joints cushioned, and supports healthy digestion. Your cells, organs, and tissues all rely on water to work properly. Water also helps carry nutrients, flush out toxins, and keep your energy levels steady. <span class=\"highlight-montserrat-bold\">Without enough water, even simple tasks like thinking clearly or moving around can feel harder.</span>",
+    "section_3_title": " What happens if you don’t drink enough water?",
+    "section_3": "When you don’t drink enough, you can get dehydrated. This can make you feel tired, cranky, dizzy, or give you a headache. It can also mess with your focus and slow down digestion. Over time, dehydration can strain your kidneys and cause other health problems. Stay ahead by sipping water throughout the day; not just when you’re super thirsty.",
+    "custom_content_data_bottom": "",
+    "habit_card_img_url": "https://i.pinimg.com/736x/16/1b/a7/161ba76259b1257fb6a277bd8f32cbc1.jpg",
+    "tags": [
+      {
+        "tag_id": "lifestyle",
+        "tag_name": "Lifestyle"
+      },
+      {
+        "tag_id": "healthy_living",
+        "tag_name": "Healthy Living"
+      },
+      {
+        "tag_id": "preventive_health",
+        "tag_name": "Preventive Health"
+      }
+    ]
+  },
+  {
+    "habit_id": "morning_walk",
+    "habit_name": "Morning Walk",
+    "habit_blog_title": "Positive Impacts of Morning Walks",
+    "thumbnail_url": "https://i.pinimg.com/736x/25/04/28/25042846eab602651fac0033c30b6b90.jpg",
+    "custom_content_data_top": "",
+    "section_1_title": "Who Should Consider a Morning Walk?",
+    "section_1": "The habit of a morning walk is beneficial for a wide range of people, but it’s especially ideal for:\n\nPeople with sedentary lifestyles need morning walks to boost circulation, metabolism, and heart health, while reducing obesity risks, improving mood, and easing physical stiffness from inactivity.",
+    "section_2_title": "Why Should You Incorporate a Morning Walk?",
+    "section_2": "<p>Morning walks boost mental clarity, improve cardiovascular health, enhance mood through endorphin release, aid weight management, and promote better sleep with sunlight exposure.</p>",
+    "section_3_title": "Who Should Avoid a Morning Walk?",
+    "section_3": "<p><b>Individuals with severe joint issues</b> or <b>heart conditions</b> should consult a doctor before starting, as walking may strain affected areas.</p><p><b>Those with acute injuries</b> should avoid walking until healed.</p>",
+    "custom_content_data_bottom": "<iframe src=\"https://assets.pinterest.com/ext/embed.html?id=279926933083849420\" height=\"336\" width=\"236\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+    "habit_card_img_url": "https://i.pinimg.com/736x/8a/74/22/8a7422c6b172b9d2c76d1569d27156db.jpg",
+    "tags": [
+      {
+        "tag_id": "physical",
+        "tag_name": "Physical"
+      },
+      {
+        "tag_id": "mental_wellness",
+        "tag_name": "Mental Wellness"
+      },
+      {
+        "tag_id": "morning",
+        "tag_name": "Morning"
+      }
+    ]
+  },
+  {
+    "habit_id": "plank",
+    "habit_name": "Plank",
+    "habit_blog_title": "Plank: A Simple Move with Big Benefits",
+    "thumbnail_url": "https://i.pinimg.com/736x/38/e5/42/38e542e78f3a7fd8f0d05f2f28db8549.jpg",
+    "custom_content_data_top": "",
+    "section_1_title": "What actually happens in your body when you plank?",
+    "section_1": "<p>When you do a plank, your core muscles work hard to keep your body stable. This includes your abs, lower back, shoulders, and even your legs. Holding the position builds strength and endurance. Your posture improves, and your spine gets better support.</p> <p>Planking also helps burn calories by activating multiple muscle groups at once without needing any equipment.</p>",
+    "section_2_title": "How long do you have to do a plank?",
+    "section_2": "Start with 20–30 seconds and increase slowly over time. Even short planks done daily can make a big difference. Aim for 1 to 2 minutes a day as a goal. Quality matters more than time; keep your form tight with a straight back, engaged core, and level hips. Overdoing it with bad form can hurt more than help.",
+    "section_3_title": "Types of planks and their needs",
+    "section_3": "<ol><li><span class=\"highlight-montserrat-bold\">Standard Plank:</span> Builds core strength and improves balance. Can be done on forearms or hands.</li></br><li><span class=\"highlight-montserrat-bold\">Side Plank:</span> Targets side abs (obliques) and strengthens the shoulders.</li></br><li><span class=\"highlight-montserrat-bold\">Reverse Plank:</span> Works the back, glutes, and hamstrings. Good for posture and flexibility.</li></br><li><span class=\"highlight-montserrat-bold\">Plank with Leg Lift:</span> Adds intensity, boosts balance, and engages deeper core muscles.</li></ol>",
+    "custom_content_data_bottom": "",
+    "habit_card_img_url": "https://i.pinimg.com/736x/b6/9a/e8/b69ae84fd47de612730fd28ee547683a.jpg",
+    "tags": [
+      {
+        "tag_id": "physical",
+        "tag_name": "Physical"
+      },
+      {
+        "tag_id": "fitness",
+        "tag_name": "Fitness"
+      },
+      {
+        "tag_id": "workout",
+        "tag_name": "Workout"
+      }
+    ]
+  },
+  {
+    "habit_id": "sauna",
+    "habit_name": "Sauna",
+    "habit_blog_title": "A Warm Path to Better Health",
+    "thumbnail_url": "https://i.pinimg.com/736x/a2/86/c3/a286c3c1f4bb65b7a00bf048c0212635.jpg",
+    "custom_content_data_top": "",
+    "section_1_title": "What are the effects of sauna in my body?",
+    "section_1": "Sitting in a sauna raises your body temperature, which increases blood flow and makes you sweat. This helps relax muscles, ease joint pain, and reduce stress. Saunas may also improve heart health, support better sleep, and help your body flush out toxins through sweating. After a session, most people feel calm, refreshed, and relaxed.",
+    "section_2_title": "How often should you do sauna?",
+    "section_2": "For most people, 2 to 3 times a week is a good start. If you’re healthy and enjoy it, daily sauna use can also be safe. Just listen to your body; if you feel tired or dizzy, take a break. Regular use builds tolerance and gives better results over time.",
+    "section_3_title": "How long do you have to do sauna?",
+    "section_3": "A typical sauna session lasts between 10 to 20 minutes. Beginners should start with 5 to 10 minutes and increase gradually. Don’t stay in too long; your body needs time to cool down afterward.",
+    "custom_content_data_bottom": "<p>In <span class=\"highlight-montserrat-bold\">Finland</span>, try <span class=\"highlight-montserrat-bold\">Löyly</span> in Helsinki or traditional public saunas like <span class=\"highlight-montserrat-bold\">Kotiharjun Sauna</span>. In <span class=\"highlight-montserrat-bold\">Sweden</span>, visit <span class=\"highlight-montserrat-bold\">Centralbadet</span> in Stockholm or lakeside saunas in the countryside. In <span class=\"highlight-montserrat-bold\">Norway</span>, check out <span class=\"highlight-montserrat-bold\">KOK Oslo</span> (floating saunas) or <span class=\"highlight-montserrat-bold\">Badehuset</span> in Tromsø. All three countries offer public saunas, hotel spas, and wellness centers; sauna is a big part of their culture.</p>",
+    "habit_card_img_url": "https://i.pinimg.com/736x/7a/46/65/7a46652797bf3f460a4cefe7af11d5c7.jpg",
+    "tags": [
+      {
+        "tag_id": "physical",
+        "tag_name": "Physical"
+      },
+      {
+        "tag_id": "relaxation",
+        "tag_name": "Relaxation"
+      },
+      {
+        "tag_id": "self_care",
+        "tag_name": "Self-Care"
+      },
+      {
+        "tag_id": "sleep",
+        "tag_name": "Sleep"
+      }
+    ]
+  },
+  {
+    "habit_id": "breakfast",
+    "habit_name": "Breakfast",
+    "habit_blog_title": "Starting Your Day the Right Way",
+    "thumbnail_url": "https://i.pinimg.com/736x/e4/5d/3e/e45d3e26b7060137cbb3aa2ee24b3a48.jpg",
+    "custom_content_data_top": "",
+    "section_1_title": "What is the actual purpose of breakfast?",
+    "section_1": "Breakfast gives your body the fuel it needs after a night of fasting. It helps wake up your metabolism, boosts energy, and improves focus; especially in the morning hours. For many People, a balanced breakfast with foods like eggs, whole grain toast, oatmeal, yogurt, fruits, or peanut butter can help keep you full and prevent overeating later in the day. It's your body's first chance to get nutrients after a long break.",
+    "section_2_title": "What happens if you skip breakfast?",
+    "section_2": "Skipping breakfast may lead to low energy, poor focus, and hunger cravings by mid-morning. Some people might overeat at lunch or snack more on unhealthy foods. Long-term, it can affect blood sugar levels and slow down metabolism. While not everyone feels the same, most studies suggest breakfast supports better weight control and brain function.",
+    "section_3_title": "Can I replace breakfast with brunch? Will there be any side effects?",
+    "section_3": "You can replace breakfast with brunch if it works for your schedule and you still eat balanced meals. Just be careful; waiting too long to eat may lead to fatigue, low focus, or irritability. For people with busy mornings, a small snack early (like fruit or a energy bar) followed by a proper brunch can work well. The key is to listen to your body’s needs.",
+    "custom_content_data_bottom": "",
+    "habit_card_img_url": "https://i.pinimg.com/736x/0a/43/ea/0a43ead8a656684336a3e7d71f152f70.jpg",
+    "tags": [
+      {
+        "tag_id": "energy",
+        "tag_name": "Energy"
+      },
+      {
+        "tag_id": "morning",
+        "tag_name": "Morning"
+      },
+      {
+        "tag_id": "nutrients",
+        "tag_name": "Nutrients"
+      }
+    ]
+  },
+  {
+    "habit_id": "eat_dates",
+    "habit_name": "Eat Dates",
+    "habit_blog_title": "A Naturally Sweet Boost for Your Body",
+    "thumbnail_url": "https://i.pinimg.com/736x/95/91/cb/9591cbcd209c2f670ead3e1b72c2c40c.jpg",
+    "custom_content_data_top": "",
+    "section_1_title": "What nutrients does your body get from dates, and what body functions are they used for?",
+    "section_1": "Dates help support brain function, heart health, digestion, and energy levels. Dates are also rich in antioxidants, which protect your body’s cells and support your immune system. They're a smart snack when you need quick energy and long-lasting fuel.",
+    "section_2_title": "How many dates should I eat in a day?",
+    "section_2": "Eating 3 dates a day is a healthy amount for most people. If you’re active or need an energy boost, you can have a few more. They work well as a morning snack, pre-workout bite, or a natural dessert after meals.",
+    "section_3_title": "What are the different types of dates, and how does each one improve body health?</br>",
+    "section_3": "<table style=\"width:100%; border-collapse: collapse;\"><thead><tr><th style=\"text-align:left; padding: 8px;\">DATES</th><th style=\"text-align:left; padding: 8px;\">VARIETY</th><th style=\"text-align:left; padding: 8px;\">INGREDIENTS</th><th style=\"text-align:left; padding: 8px;\">BENEFITS</th></tr></thead><tbody><tr><td style=\"padding: 8px;\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/%C5%9Awie%C5%BCy_daktyle_odmiany_MEDJOOL.jpg/1200px-%C5%9Awie%C5%BCy_daktyle_odmiany_MEDJOOL.jpg\" alt=\"Medjool\" width=\"100\" height=\"100\" style=\"border-radius: 8px;\"></td><td style=\"padding: 8px;\"><span class=\"highlight-montserrat-bold\">Medjool</span></td><td style=\"padding: 8px;\">Large, soft, and sweet</td><td style=\"padding: 8px;\">Great for energy and digestion due to high fiber</td></tr><tr><td style=\"padding: 8px;\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Dattes_deglet_from_Biskra.jpg/500px-Dattes_deglet_from_Biskra.jpg\" alt=\"Deglet Noor\" width=\"100\" height=\"100\" style=\"border-radius: 8px;\"></td><td style=\"padding: 8px;\"><span class=\"highlight-montserrat-bold\">Deglet Noor</span></td><td style=\"padding: 8px;\">Smaller, firmer, and mildly sweet</td><td style=\"padding: 8px;\">Good for daily snacking and baking</td></tr><tr><td style=\"padding: 8px;\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/7/7c/Barhi_dates_Namibia.jpg\" alt=\"Barhi\" width=\"100\" height=\"100\" style=\"border-radius: 8px;\"></td><td style=\"padding: 8px;\"><span class=\"highlight-montserrat-bold\">Barhi</span></td><td style=\"padding: 8px;\">Soft and creamy</td><td style=\"padding: 8px;\">Rich in antioxidants, supports immunity</td></tr><tr><td style=\"padding: 8px;\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Emirati_Ajwa_date.jpg/500px-Emirati_Ajwa_date.jpg\" alt=\"Ajwa\" width=\"100\" height=\"100\" style=\"border-radius: 8px;\"></td><td style=\"padding: 8px;\"><span class=\"highlight-montserrat-bold\">Ajwa</span></td><td style=\"padding: 8px;\">Used in traditional wellness</td><td style=\"padding: 8px;\">Believed to support heart health</td></tr></tbody></table>",
+    "custom_content_data_bottom": "",
+    "habit_card_img_url": "https://i.pinimg.com/736x/b4/53/27/b45327bd504e703a61c6aa5d4078bdac.jpg",
+    "tags": [
+      {
+        "tag_id": "healthy_living",
+        "tag_name": "Healthy Living"
+      },
+      {
+        "tag_id": "nutrients",
+        "tag_name": "Nutrients"
+      },
+      {
+        "tag_id": "morning",
+        "tag_name": "Morning"
+      }
+    ]
+  }
+]

@@ -1,0 +1,231 @@
+<script type="text/javascript">
+    var gk_isXlsx = false;
+    var gk_xlsxFileLookup = {};
+    var gk_fileData = {};
+    function filledCell(cell) {
+        return cell !== '' && cell != null;
+    }
+    function loadFileData(filename) {
+        if (gk_isXlsx && gk_xlsxFileLookup[filename]) {
+            try {
+                var workbook = XLSX.read(gk_fileData[filename], { type: 'base64' });
+                var firstSheetName = workbook.SheetNames[0];
+                var worksheet = workbook.Sheets[firstSheetName];
+
+                // Convert sheet to JSON to filter blank rows
+                var jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1, blankrows: false, defval: '' });
+                // Filter out blank rows (rows where all cells are empty, null, or undefined)
+                var filteredData = jsonData.filter(row => row.some(filledCell));
+
+                // Heuristic to find the header row by ignoring rows with fewer filled cells than the next row
+                var headerRowIndex = filteredData.findIndex((row, index) =>
+                    row.filter(filledCell).length >= filteredData[index + 1]?.filter(filledCell).length
+                );
+                // Fallback
+                if (headerRowIndex === -1 || headerRowIndex > 25) {
+                    headerRowIndex = 0;
+                }
+
+                // Convert filtered JSON back to CSV
+                var csv = XLSX.utils.aoa_to_sheet(filteredData.slice(headerRowIndex)); // Create a new sheet from filtered array of arrays
+                csv = XLSX.utils.sheet_to_csv(csv, { header: 1 });
+                return csv;
+            } catch (e) {
+                console.error(e);
+                return "";
+            }
+        }
+        return gk_fileData[filename] || "";
+    }
+</script>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Organized collection of Habits.">
+    <meta name="keywords"
+        content="habit tracker, productivity, personal growth, self-improvement, habit formation, tracking habits">
+    <meta name="author" content="Habit Tracker - Habit Card by Jithin">
+    <meta name="robots" content="index, follow">
+    <link rel="icon"
+        href="https://github.com/MountZoft/mountzoft.github.io/blob/460f1a3107e45a455c329ea2089ef2c10b62cf7b/assets/images/logo.png"
+        type="image/png">
+    <title>HABIT LIBRARY</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap">
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section class="library-section">
+            <img src="https://images.unsplash.com/photo-1517928260182-5688aead3066?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Aurora" class="library-section-bg-img">
+
+            <div class="library-section-overlay"></div>
+
+            <div class="library-section-content">
+                <h1>HABIT LIBRARY</h1>
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search">
+                </div>
+                <div class="tag-container" id="tagContainer"></div>
+                <div class="habit-grid" id="habitGrid"></div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="slideshow">
+                <img src="https://raw.githubusercontent.com/MountZoft/mountzoft.github.io/refs/heads/master/assets/images/most_subscribers/USA.jpg"
+                    alt="USA" class="slide">
+                <img src="https://raw.githubusercontent.com/MountZoft/mountzoft.github.io/refs/heads/master/assets/images/most_subscribers/France.jpg"
+                    alt="France" class="slide">
+                <img src="http://raw.githubusercontent.com/MountZoft/mountzoft.github.io/refs/heads/master/assets/images/most_subscribers/Norway.jpg"
+                    alt="Norway" class="slide">
+                <img src="https://raw.githubusercontent.com/MountZoft/mountzoft.github.io/refs/heads/master/assets/images/most_subscribers/Finland.jpg"
+                    alt="Finland" class="slide">
+                <img src="https://raw.githubusercontent.com/MountZoft/mountzoft.github.io/refs/heads/master/assets/images/most_subscribers/Iceland.jpg"
+                    alt="Iceland" class="slide">
+                <img src="https://raw.githubusercontent.com/MountZoft/mountzoft.github.io/refs/heads/master/assets/images/most_subscribers/Germany.jpg"
+                    alt="Germany" class="slide">
+                <img src="https://raw.githubusercontent.com/MountZoft/mountzoft.github.io/refs/heads/master/assets/images/most_subscribers/UK.jpg"
+                    alt="UK" class="slide">
+                <img src="https://raw.githubusercontent.com/MountZoft/mountzoft.github.io/refs/heads/master/assets/images/most_subscribers/India.jpg"
+                    alt="India" class="slide">
+                <img src="https://raw.githubusercontent.com/MountZoft/mountzoft.github.io/refs/heads/master/assets/images/most_subscribers/UAE.jpg"
+                    alt="UAE" class="slide">
+                <img src="https://raw.githubusercontent.com/MountZoft/mountzoft.github.io/refs/heads/master/assets/images/most_subscribers/Singapore.jpg"
+                    alt="Singapore" class="slide">
+                <img src="https://raw.githubusercontent.com/MountZoft/mountzoft.github.io/refs/heads/master/assets/images/most_subscribers/Italy.jpg"
+                    alt="Italy" class="slide">
+                <img src="https://raw.githubusercontent.com/MountZoft/mountzoft.github.io/refs/heads/master/assets/images/most_subscribers/Denmark.jpg"
+                    alt="Denmark" class="slide">
+                <img src="https://raw.githubusercontent.com/MountZoft/mountzoft.github.io/refs/heads/master/assets/images/most_subscribers/Japan.jpg"
+                    alt="Japan" class="slide">
+                <img src="https://raw.githubusercontent.com/MountZoft/mountzoft.github.io/refs/heads/master/assets/images/most_subscribers/Russia.jpg"
+                    alt="Russia" class="slide">
+            </div>
+
+            <div class="overlay"></div>
+            <div class="vision">
+                <p class="vision-text">Citizens with good habits are an asset to every nation, and that's our vision.
+                </p>
+                <div class="flags">
+                    <img src="https://flagcdn.com/us.svg" alt="USA" class="flag">
+                    <img src="https://flagcdn.com/fr.svg" alt="France" class="flag">
+                    <img src="https://flagcdn.com/no.svg" alt="Norway" class="flag">
+                    <img src="https://flagcdn.com/fi.svg" alt="Finland" class="flag">
+                    <img src="https://flagcdn.com/is.svg" alt="Iceland" class="flag">
+                    <img src="https://flagcdn.com/de.svg" alt="Germany" class="flag">
+                    <img src="https://flagcdn.com/gb.svg" alt="UK" class="flag">
+                    <img src="https://flagcdn.com/in.svg" alt="India" class="flag">
+                    <img src="https://flagcdn.com/ae.svg" alt="UAE" class="flag">
+                    <img src="https://flagcdn.com/sg.svg" alt="Singapore" class="flag">
+                    <img src="https://flagcdn.com/it.svg" alt="Italy" class="flag">
+                    <img src="https://flagcdn.com/dk.svg" alt="Denmark" class="flag">
+                    <img src="https://flagcdn.com/jp.svg" alt="Japan" class="flag">
+                    <img src="https://flagcdn.com/ru.svg" alt="Russia" class="flag">
+                </div>
+            </div>
+        </section>
+
+        <section class="vision-path">
+
+            <img src="https://raw.githubusercontent.com/MountZoft/mountzoft.github.io/refs/heads/master/assets/images/hc_vision_map.png"
+                alt="Our Vision Path">
+
+        </section>
+
+        <footer>
+            <div class="footer-content">
+                <p>Small Habits, Big Changes — Start Today!</p>
+                <p>Designed by Jithin and Friends</p>
+                <a href="https://play.google.com/store/apps/details?id=habit.tracker.habitcard">
+                    <img src="https://github.com/MountZoft/mountzoft.github.io/raw/7cbc31c1946d6e1b4523dca1b5a4f6a596bdbcfb/assets/images/play_store_badge.png"
+                        alt="Get It On Google Play" class="play-store-badge">
+                </a>
+            </div>
+        </footer>
+    </main>
+    <script>
+        let habitsData = [];
+        let allTags = new Set(['all']);
+
+        // Fetch habit data
+        fetch('habit_library.json')
+            .then(response => response.json())
+            .then(data => {
+                habitsData = data;
+                habitsData.forEach(habit => {
+                    habit.tags.forEach(tag => allTags.add(tag.tag_id));
+                });
+                renderTags();
+                renderHabits('all');
+            });
+
+        // Render tag chips
+        function renderTags() {
+            const tagContainer = document.getElementById('tagContainer');
+            allTags.forEach(tag => {
+                const chip = document.createElement('button');
+                chip.className = `tag-chip ${tag === 'all' ? 'active' : ''}`;
+                chip.dataset.tag = tag;
+                chip.textContent = tag === 'all' ? 'All' : habitsData
+                    .flatMap(h => h.tags)
+                    .find(t => t.tag_id === tag)?.tag_name || tag;
+                chip.addEventListener('click', () => {
+                    document.querySelectorAll('.tag-chip').forEach(c => c.classList.remove('active'));
+                    chip.classList.add('active');
+                    renderHabits(tag);
+                });
+                tagContainer.appendChild(chip);
+            });
+        }
+
+        // Render habits based on tag or search
+        function renderHabits(selectedTag, searchQuery = '') {
+            const habitGrid = document.getElementById('habitGrid');
+            habitGrid.innerHTML = '';
+            let filteredHabits = habitsData;
+
+            if (searchQuery) {
+                filteredHabits = habitsData.filter(habit =>
+                    habit.habit_name.toLowerCase().includes(searchQuery.toLowerCase())
+                );
+            } else if (selectedTag !== 'all') {
+                filteredHabits = habitsData.filter(habit =>
+                    habit.tags.some(tag => tag.tag_id === selectedTag)
+                );
+            }
+
+            filteredHabits.forEach(habit => {
+                const card = document.createElement('a');
+                card.className = 'habit-card';
+                card.href = `habit_blog.html?id=${habit.habit_id}`;
+                card.target = '_blank';
+                card.style.backgroundImage = `url(${habit.thumbnail_url})`;
+                card.innerHTML = `
+                    <div class="overlay"></div>
+                    <div class="habit-text">
+                        <h2>${habit.habit_name}</h2>
+                        <p class="habit-subtitle">${habit.habit_blog_title}</p>
+                    </div>
+                `;
+                habitGrid.appendChild(card);
+            });
+        }
+
+        // Search functionality
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            document.querySelectorAll('.tag-chip').forEach(c => c.classList.remove('active'));
+            document.querySelector('.tag-chip[data-tag="all"]').classList.add('active');
+            renderHabits('all', e.target.value);
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" id="metaDescription" content="">
+    <meta name="keywords" id="metaKeywords" content="">
+    <meta name="author" content="Habit Tracker - Habit Card by Jithin">
+    <meta name="robots" content="index, follow">
+    <link rel="icon"
+        href="https://github.com/MountZoft/mountzoft.github.io/blob/460f1a3107e45a455c329ea2089ef2c10b62cf7b/assets/images/logo.png"
+        type="image/png">
+    <title id="habitBlogTitle"></title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap">
+</head>
+
+<body class="habit-detail">
+    <header></header>
+    <main>
+        <div class="habit-content">
+            <div class="habit-top-section">
+                <h1 id="habitTitle"></h1>
+                <div class="habit-top-content">
+                    <img id="habitThumbnail" alt="Habit" class="habit-image placeholder"
+                        onload="this.classList.remove('placeholder');">
+                    <section class="habit-who-follow">
+                        <h3 id="section1Title"></h3>
+                        <div id="section1"></div>
+                    </section>
+                </div>
+            </div>
+            <section id="customContentSectionTop" style="display: none;">
+                <div id="customContentDataTop"></div>
+            </section>
+            <section>
+                <h3 id="section2Title"></h3>
+                <div id="section2"></div>
+            </section>
+            <section id="customContentSectionBottom" style="display: none;">
+                <div id="customContentDataBottom"></div>
+            </section>
+            <section>
+                <h3 id="section3Title"></h3>
+                <div id="section3"></div>
+            </section>
+            </br>
+            <a href="https://play.google.com/store/apps/details?id=habit.tracker.habitcard">
+                <img id="habitCardImg" alt="Habit Card" class="habit-card-image">
+            </a>
+            </br>
+            <footer>
+                <div class="footer-content">
+                    <p>Small Habits, Big Changes — Start Today!</p>
+                    <a href="https://play.google.com/store/apps/details?id=habit.tracker.habitcard">
+                        <img src="https://github.com/MountZoft/mountzoft.github.io/raw/7cbc31c1946d6e1b4523dca1b5a4f6a596bdbcfb/assets/images/play_store_badge.png"
+                            alt="Get It On Google Play" class="play-store-badge">
+                    </a>
+                </div>
+            </footer>
+        </div>
+    </main>
+    <script>
+        // Get habit ID from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const habitId = urlParams.get('id');
+
+        // Fetch habit data
+        fetch('habit_library.json')
+            .then(response => response.json())
+            .then(data => {
+                const habit = data.find(h => h.habit_id === habitId);
+                if (habit) {
+                    document.getElementById('metaDescription').setAttribute('content', habit.habit_blog_title);
+
+                    const tags = habit.tags.map(tag => tag.tag_name).join(', ');
+                    document.getElementById('metaKeywords').setAttribute('content', tags);
+
+                    document.getElementById('habitBlogTitle').textContent = habit.habit_name;
+                    document.getElementById('habitTitle').textContent = habit.habit_blog_title;
+                    const habitThumbnail = document.getElementById('habitThumbnail');
+                    habitThumbnail.src = habit.thumbnail_url;
+                    habitThumbnail.style.backgroundColor = '#ccc'; // Set placeholder color
+
+                    document.getElementById('section1Title').innerHTML = habit.section_1_title;
+                    document.getElementById('section1').innerHTML = habit.section_1;
+                    document.getElementById('section2Title').innerHTML = habit.section_2_title;
+                    document.getElementById('section2').innerHTML = habit.section_2;
+                    document.getElementById('section3Title').innerHTML = habit.section_3_title;
+                    document.getElementById('section3').innerHTML = habit.section_3;
+                    document.getElementById('habitCardImg').src = habit.habit_card_img_url;
+
+                    if (habit.custom_content_data_top) {
+                        document.getElementById('customContentDataTop').innerHTML = habit.custom_content_data_top;
+                        document.getElementById('customContentSectionTop').style.display = 'block';
+                    }
+                    if (habit.custom_content_data_bottom) {
+                        document.getElementById('customContentDataBottom').innerHTML = habit.custom_content_data_bottom;
+                        document.getElementById('customContentSectionBottom').style.display = 'block';
+                    }
+                }
+            });
+    </script>
+</body>
+
+</html>
