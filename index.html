@@ -205,7 +205,7 @@
             filteredHabits.forEach(habit => {
                 const card = document.createElement('a');
                 card.className = 'habit-card';
-                card.href = `habit_blog.html?id=${habit.habit_id}`;
+                card.href = `pages/habit_blog.html?id=${habit.habit_id}`;
                 card.target = '_blank';
                 card.style.backgroundImage = `url(${habit.thumbnail_url})`;
                 card.innerHTML = `
