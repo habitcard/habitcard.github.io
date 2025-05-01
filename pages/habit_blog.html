@@ -67,7 +67,7 @@
         const habitId = urlParams.get('id');
 
         // Fetch habit data
-        fetch('habit_library.json')
+        fetch('assets/habit_library.json')
             .then(response => response.json())
             .then(data => {
                 const habit = data.find(h => h.habit_id === habitId);
