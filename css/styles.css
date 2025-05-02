@@ -428,6 +428,50 @@ footer {
     animation-delay: 10s;
 }
 
+.slide:nth-child(4) {
+    animation-delay: 15s;
+}
+
+.slide:nth-child(5) {
+    animation-delay: 20s;
+}
+
+.slide:nth-child(6) {
+    animation-delay: 25s;
+}
+
+.slide:nth-child(7) {
+    animation-delay: 30s;
+}
+
+.slide:nth-child(8) {
+    animation-delay: 35s;
+}
+
+.slide:nth-child(9) {
+    animation-delay: 40s;
+}
+
+.slide:nth-child(10) {
+    animation-delay: 45s;
+}
+
+.slide:nth-child(11) {
+    animation-delay: 50s;
+}
+
+.slide:nth-child(12) {
+    animation-delay: 55s;
+}
+
+.slide:nth-child(13) {
+    animation-delay: 60s;
+}
+
+.slide:nth-child(14) {
+    animation-delay: 65s;
+}
+
 @keyframes fade {
     0% {
         opacity: 0;
