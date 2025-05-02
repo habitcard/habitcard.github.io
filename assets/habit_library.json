@@ -21,18 +21,6 @@
       {
         "tag_id": "productivity",
         "tag_name": "Productivity"
-      },
-      {
-        "tag_id": "self_reflection",
-        "tag_name": "Self-Reflection"
-      },
-      {
-        "tag_id": "discipline",
-        "tag_name": "Discipline"
-      },
-      {
-        "tag_id": "lifestyle",
-        "tag_name": "Lifestyle"
       }
     ]
   },
@@ -52,12 +40,12 @@
     "habit_card_img_url": "https://i.pinimg.com/736x/c6/13/fa/c613faabc32dcc1f115fd7153d13adb8.jpg",
     "tags": [
       {
-        "tag_id": "hygiene",
-        "tag_name": "Hygiene"
-      },
-      {
         "tag_id": "morning",
         "tag_name": "Morning"
+      },
+      {
+        "tag_id": "evening",
+        "tag_name": "Evening"
       },
       {
         "tag_id": "self_care",
@@ -85,12 +73,12 @@
         "tag_name": "Mental Wellness"
       },
       {
-        "tag_id": "self_awareness",
-        "tag_name": "Self-Awareness"
+        "tag_id": "self-reflection",
+        "tag_name": "Self-Reflection"
       },
       {
-        "tag_id": "inner_peace",
-        "tag_name": "Inner Peace"
+        "tag_id": "productivity",
+        "tag_name": "Productivity"
       }
     ]
   },
@@ -139,12 +127,12 @@
     "habit_card_img_url": "https://i.pinimg.com/736x/16/1b/a7/161ba76259b1257fb6a277bd8f32cbc1.jpg",
     "tags": [
       {
-        "tag_id": "lifestyle",
-        "tag_name": "Lifestyle"
+        "tag_id": "physical",
+        "tag_name": "Physical"
       },
       {
-        "tag_id": "healthy_living",
-        "tag_name": "Healthy Living"
+        "tag_id": "self_care",
+        "tag_name": "Self-Care"
       },
       {
         "tag_id": "preventive_health",
@@ -168,16 +156,20 @@
     "habit_card_img_url": "https://i.pinimg.com/736x/8a/74/22/8a7422c6b172b9d2c76d1569d27156db.jpg",
     "tags": [
       {
-        "tag_id": "physical",
-        "tag_name": "Physical"
+        "tag_id": "morning",
+        "tag_name": "Morning"
       },
       {
         "tag_id": "mental_wellness",
         "tag_name": "Mental Wellness"
       },
       {
-        "tag_id": "morning",
-        "tag_name": "Morning"
+        "tag_id": "self_care",
+        "tag_name": "Self-Care"
+      },
+      {
+        "tag_id": "physical",
+        "tag_name": "Physical"
       }
     ]
   },
@@ -201,12 +193,12 @@
         "tag_name": "Physical"
       },
       {
-        "tag_id": "fitness",
-        "tag_name": "Fitness"
+        "tag_id": "preventive_health",
+        "tag_name": "Preventive Health"
       },
       {
-        "tag_id": "workout",
-        "tag_name": "Workout"
+        "tag_id": "self_care",
+        "tag_name": "Self-Care"
       }
     ]
   },
@@ -226,20 +218,20 @@
     "habit_card_img_url": "https://i.pinimg.com/736x/7a/46/65/7a46652797bf3f460a4cefe7af11d5c7.jpg",
     "tags": [
       {
-        "tag_id": "physical",
-        "tag_name": "Physical"
-      },
-      {
-        "tag_id": "relaxation",
-        "tag_name": "Relaxation"
-      },
-      {
         "tag_id": "self_care",
         "tag_name": "Self-Care"
       },
       {
-        "tag_id": "sleep",
-        "tag_name": "Sleep"
+        "tag_id": "mental_wellness",
+        "tag_name": "Mental Wellness"
+      },
+      {
+        "tag_id": "preventive_health",
+        "tag_name": "Preventive Health"
+      },
+      {
+        "tag_id": "physical",
+        "tag_name": "Physical"
       }
     ]
   },
@@ -258,10 +250,6 @@
     "custom_content_data_bottom": "",
     "habit_card_img_url": "https://i.pinimg.com/736x/0a/43/ea/0a43ead8a656684336a3e7d71f152f70.jpg",
     "tags": [
-      {
-        "tag_id": "energy",
-        "tag_name": "Energy"
-      },
       {
         "tag_id": "morning",
         "tag_name": "Morning"
@@ -287,10 +275,6 @@
     "custom_content_data_bottom": "",
     "habit_card_img_url": "https://i.pinimg.com/736x/b4/53/27/b45327bd504e703a61c6aa5d4078bdac.jpg",
     "tags": [
-      {
-        "tag_id": "healthy_living",
-        "tag_name": "Healthy Living"
-      },
       {
         "tag_id": "nutrients",
         "tag_name": "Nutrients"
