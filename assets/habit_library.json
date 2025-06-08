@@ -284,5 +284,146 @@
         "tag_name": "Morning"
       }
     ]
+  },
+  {
+    "habit_id": "my_new_habit",
+    "habit_name": "My New Habit",
+    "habit_blog_title": "Mother of All Habits",
+    "thumbnail_url": "https://i.pinimg.com/736x/34/88/96/348896e9fa9db9bf5d8c89947bd6fc01.jpg",
+    "custom_content_data_top": "",
+    "section_1_title": "Why Wake Up Early is the Mother of All Habits",
+    "section_1": "Waking up early gives you a head start. It creates space for calm, focused time before the world gets noisy. This habit gives you full control of your day from the start. When you rise early, you’re more likely to plan, think clearly, and follow routines. It builds discipline, and discipline is the root of all other good habits. That’s why waking up early is often called the “mother of all habits.”",
+    "section_2_title": "Wake Up Early Hacks",
+    "section_2": "<ol><li>Keep your phone away from your bed and avoid doomscrolling while in bed.</li></br><li>Use an alarm clock placed away from your bed.</li></br><li>Avoid caffeine or heavy meals late at night.</li></br><li>Expose yourself to natural light soon after waking up to help reset your internal clock. ​</li></br><li>Maintain the same sleep and wake times every day, even on weekends, to regulate your biological clock.</li></ol>",
+    "section_3_title": "Other Habits to Pair with Waking Up Early",
+    "section_3": "Begin with a few minutes of <span class=\"highlight-montserrat-bold\">meditation</span> to calm your mind and create mental space. Follow it with <span class=\"highlight-montserrat-bold\">journaling</span> to reflect, set intentions, or clear lingering thoughts. Then, spend some time <span class=\"highlight-montserrat-bold\">reading</span>; mornings are ideal for deep focus. After that, drink a glass of water to <span class=\"highlight-montserrat-bold\">hydrate</span> your body. Finally, plan your day by listing your top three tasks. This simple flow turns your morning into a structured, energizing routine that sets the tone for a productive day.",
+    "custom_content_data_bottom": "",
+    "habit_card_img_url": "https://i.pinimg.com/736x/eb/88/ef/eb88efc2459bca12a230f5f195827c02.jpg",
+    "tags": [
+      {
+        "tag_id": "my_new_habit_id1",
+        "tag_name": "My New Habit Tag 1"
+      },
+      {
+        "tag_id": "my_new_habit_id2",
+        "tag_name": "My New Habit Tag 2"
+      }
+    ]
+  },
+  {
+    "habit_id": "brush_teeth_test",
+    "habit_name": "Brush Teeth_test",
+    "habit_blog_title": "Brush Your Teeth Twice Daily",
+    "thumbnail_url": "https://i.pinimg.com/736x/4d/2c/3f/4d2c3fb242961028b0f1f72b0983a85e.jpg",
+    "custom_content_data_top": "",
+    "section_1_title": "Why Should You Brush Your Teeth Twice a Day?",
+    "section_1": "<p>Brushing in the morning helps remove bacteria that build up overnight.</p><p>Brushing at night clears away food particles and plaque from the day.</p><p>This habit helps prevent tooth decay, gum disease, and bad breath. If you eat sugary or acidic foods, wait 30 minutes before brushing to protect your enamel.</p>",
+    "section_2_title": "How Long Should I Brush My Teeth?",
+    "section_2": "You should brush your teeth for two full minutes each time. Divide the time into 30 seconds for each section: upper left, upper right, lower left, and lower right. Use gentle, circular motions and make sure to clean all surfaces-outer, inner, and chewing sides. Set a timer or play a short song to keep track of time.",
+    "section_3_title": "Normal v/s Electric Toothbrushes",
+    "section_3": "<p>Electric toothbrushes often remove more plaque and make brushing easier. They also help maintain the correct brushing time.</p> <p>Manual toothbrushes are cheaper and don’t need charging, but they require more effort and technique.</p>",
+    "custom_content_data_bottom": "",
+    "habit_card_img_url": "https://i.pinimg.com/736x/c6/13/fa/c613faabc32dcc1f115fd7153d13adb8.jpg",
+    "tags": [
+      {
+        "tag_id": "morning_test",
+        "tag_name": "Morning_test"
+      },
+      {
+        "tag_id": "evening_test",
+        "tag_name": "Evening_test"
+      },
+      {
+        "tag_id": "self_care_test",
+        "tag_name": "Self-Care_test"
+      }
+    ]
+  },
+  {
+    "habit_id": "meditate_test",
+    "habit_name": "Meditate_test",
+    "habit_blog_title": "A Simple Guide to Starting Meditation",
+    "thumbnail_url": "https://i.pinimg.com/736x/c3/e6/b7/c3e6b7c8ab10bebc56d20ad65c98e7d5.jpg",
+    "custom_content_data_top": "",
+    "section_1_title": "At What Age Should You Start Meditation?",
+    "section_1": "<p>You can start meditation at any age. Even children as young as 5 can benefit from simple breathing or mindfulness exercises. Starting young helps build emotional control, focus, and calmness early in life.</p><p>However, it’s never too late to begin; teens, adults, and seniors can all experience reduced stress, better sleep, and improved mental clarity through meditation. Just choose a method that suits your age and comfort level.</p>",
+    "section_2_title": "How Long Should a Beginner Meditate?",
+    "section_2": "Beginners should meditate for 5 to 10 minutes daily. As you get comfortable, you can increase the time to 15 or 20 minutes. Consistency matters more than duration. A few minutes every day is more helpful than long sessions once in a while.",
+    "section_3_title": "Types of Meditation and Choosing the Right One",
+    "section_3": "<p><span class=\"highlight-montserrat-bold\">Mindfulness</span> meditation enhances focus and reduces stress, ideal for beginners. <span class=\"highlight-montserrat-bold\">Guided</span> meditation uses audio for relaxation, great for those needing structure. <span class=\"highlight-montserrat-bold\">Transcendental</span> meditation involves mantras for deep calm, suiting experienced practitioners. <span class=\"highlight-montserrat-bold\">Loving-kindness</span> meditation fosters compassion, perfect for emotional growth.</p><p>If you're a beginner, mindfulness is a good place to start.</p>",
+    "custom_content_data_bottom": "",
+    "habit_card_img_url": "https://i.pinimg.com/736x/13/86/1a/13861ae3ad0414259da9886d06c9b813.jpg",
+    "tags": [
+      {
+        "tag_id": "mental_wellness_test",
+        "tag_name": "Mental Wellness_test"
+      },
+      {
+        "tag_id": "self_reflection_test",
+        "tag_name": "Self-Reflection_test"
+      },
+      {
+        "tag_id": "productivity_test",
+        "tag_name": "Productivity_test"
+      }
+    ]
+  },
+  {
+    "habit_id": "daily_journaling_test",
+    "habit_name": "Daily Journaling_test",
+    "habit_blog_title": "Cool Benefits of Keeping a Journal",
+    "thumbnail_url": "https://i.pinimg.com/736x/5c/2f/0e/5c2f0ebaf9f0f446117bf3449d5ae72a.jpg",
+    "custom_content_data_top": "",
+    "section_1_title": "How Journaling Prevents Overthinking?",
+    "section_1": "Journaling prevents overthinking by letting you dump your thoughts onto paper, breaking the cycle of endless worry. It helps you spot patterns, like repeated fears, and address them logically. Writing organizes your mind, reducing mental clutter and anxiety. Over time, it teaches you to let go of unhelpful thoughts, replacing them with solutions or acceptance, keeping your mind calm and present.",
+    "section_2_title": "What is a Journal?",
+    "section_2": "A journal is a personal notebook where you write your thoughts, feelings, or daily events. It’s like a private friend that listens without judging. You can use it to track goals, express emotions, or just ramble. Whether on paper or digitally, it’s a safe space to be yourself. It helps you reflect, grow, and understand your life better with every entry.\n\nThere are several journal types to suit your style. Gratitude journaling boosts positivity by noting things you’re thankful for. Art journaling mixes drawings and words for creative expression. Bullet journaling organizes tasks with lists and symbols. Junk journaling uses random items like tickets for a messy, fun vibe. Travel journaling captures adventures with notes and mementos. Each type offers a unique way to connect with yourself.",
+    "section_3_title": "Best Time for Journaling?",
+    "section_3": "The best time for journaling is morning, when your mind is fresh, setting a positive tone for the day. Evening works too, letting you unwind and reflect on experiences. Choose a quiet moment, like after breakfast or before bed, for 10-15 minutes. Consistency matters more than the exact time, so pick what fits your routine to make it a relaxing habit that sticks.",
+    "custom_content_data_bottom": "<p style=\"font-family: 'Playfair Display', serif; color: #ffffff; font-size: 1.5rem;\">“Keeping a journal will absolutely change your life in ways you’ve never imagined.” — Oprah Winfrey</p>",
+    "habit_card_img_url": "https://i.pinimg.com/736x/7a/32/b1/7a32b1a71d12b968824197fe6417740d.jpg",
+    "tags": [
+      {
+        "tag_id": "mental_wellness_test",
+        "tag_name": "Mental Wellness_test"
+      },
+      {
+        "tag_id": "creativity_test",
+        "tag_name": "Creativity_test"
+      },
+      {
+        "tag_id": "self_reflection_test",
+        "tag_name": "Self-Reflection_test"
+      }
+    ]
+  },
+  {
+    "habit_id": "hydrate_test_test",
+    "habit_name": "Hydrate_test",
+    "habit_blog_title": "The Real Reason Your Body Needs Water",
+    "thumbnail_url": "https://i.pinimg.com/736x/5e/9f/2e/5e9f2e43a1fd747d66238fa5d9da91c3.jpg",
+    "custom_content_data_top": "",
+    "section_1_title": "How much water does your body need a day?",
+    "section_1": "Your body needs enough water to stay healthy and active. On average, men need about 12–15 cups of fluids per day, and women need about 9–11 cups. This includes all drinks like water, coffee/tea, and even water from food. If you exercise, sweat a lot, or live in a hot place, you may need more. Always drink when you feel thirsty.",
+    "section_2_title": "Why Your Body Needs Water",
+    "section_2": "Water helps regulate body temperature, keeps joints cushioned, and supports healthy digestion. Your cells, organs, and tissues all rely on water to work properly. Water also helps carry nutrients, flush out toxins, and keep your energy levels steady. <span class=\"highlight-montserrat-bold\">Without enough water, even simple tasks like thinking clearly or moving around can feel harder.</span>",
+    "section_3_title": " What happens if you don’t drink enough water?",
+    "section_3": "When you don’t drink enough, you can get dehydrated. This can make you feel tired, cranky, dizzy, or give you a headache. It can also mess with your focus and slow down digestion. Over time, dehydration can strain your kidneys and cause other health problems. Stay ahead by sipping water throughout the day; not just when you’re super thirsty.",
+    "custom_content_data_bottom": "",
+    "habit_card_img_url": "https://i.pinimg.com/736x/16/1b/a7/161ba76259b1257fb6a277bd8f32cbc1.jpg",
+    "tags": [
+      {
+        "tag_id": "physical_test",
+        "tag_name": "Physical_test"
+      },
+      {
+        "tag_id": "self_care_test",
+        "tag_name": "Self-Care_test"
+      },
+      {
+        "tag_id": "preventive_health_test",
+        "tag_name": "Preventive Health_test"
+      }
+    ]
   }
 ]

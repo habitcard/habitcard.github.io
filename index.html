@@ -83,7 +83,7 @@
             <div class="library-section-overlay"></div>
 
             <div class="library-section-content">
-                <h1>HABIT LIBRARY</h1>
+                <h1>Habit Library</h1>
                 <div class="search-container">
                     <input type="text" id="searchInput" placeholder="Search">
                 </div>
@@ -281,12 +281,11 @@
                 card.target = '_blank';
                 card.style.backgroundImage = `url(${habit.thumbnail_url})`;
                 card.innerHTML = `
-                    <div class="overlay"></div>
-                    <div class="habit-text">
-                        <h2>${habit.habit_name}</h2>
-                        <p class="habit-subtitle">${habit.habit_blog_title}</p>
-                    </div>
-                `;
+            <div class="overlay"></div>
+            <div class="habit-text">
+                <h2>${habit.habit_name}</h2>
+                <p class="habit-subtitle">${habit.habit_blog_title}</p>
+            </div>`;
                 habitGrid.appendChild(card);
             });
         }
