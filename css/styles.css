@@ -171,12 +171,12 @@ h1 {
 }
 
 .habit-card:hover .overlay {
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.6);
     /* darker on hover */
 }
 
 .habit-card:hover::before {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.4);
 }
 
 .habit-card h2 {
