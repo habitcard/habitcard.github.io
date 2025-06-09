@@ -170,7 +170,7 @@ h1 {
     /* Removes small whitespace below image */
 }
 
-.habit-card:hover .overlay {
+.habit-card:hover {
     background: rgba(0, 0, 0, 0.8);
     /* darker on hover */
 }
